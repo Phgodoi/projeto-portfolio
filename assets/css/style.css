@@ -301,7 +301,7 @@ ul:hover > li:not(:hover)> img {
     color: #fff;
     cursor: pointer;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 #topBtn:hover{
     background-color: rgba(50, 50, 50, 0.7);
