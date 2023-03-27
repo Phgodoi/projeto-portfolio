@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Js -->
+    <script defer src="assets/js/main.js"></script>
+
+</head>
+<body>
+   
+    <nav class="navbar">
+        <a href="index.html" class="logo"><i class="material-symbols-outlined">
+            home
+            </i></a>
+        <input type="checkbox" id="toggler">
+
+        <label for="toggler"><i class="material-symbols-outlined">menu</i>      
+        </label>
+
+        <div class="menu">
+            <ul class="list">
+                <a href="index.html">Inicio</a>
+                <a href="#about">Sobre Mim</a>
+                <a href="#projects">Portfólio</a>
+                <a href="#contact">Contato</a>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1>Paulo Godoi</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <p>
+            Em busca de novas oportunidades na área de tecnologia como desenvolvedor, já realizei alguns projetos que estou compartilhando em meu portfólio. Entre eles, há projetos acadêmicos e outros desenvolvidos por profissionais que compartilharam seus trabalhos na internet.
+            Sei que migrar de área nunca é fácil, mas estou me dedicando com afinco para conquistar meus objetivos. Tenho amplo conhecimento em HTML e CSS, e venho me aprimorando cada vez mais em outras tecnologias para estar sempre atualizado e preparado para novos desafios. Estou confiante em minha capacidade de contribuir para projetos de tecnologia inovadores e estou animado para encontrar uma equipe de trabalho que me permita crescer e evoluir como profissional.
+        </p>  
+       
+        <a href="#projects">Veja meu trabalho</a>
+        <ul>
+            <li><a href="mailto:pauloh.godoi94@gmail.com"><img src="src/icones/gmail.png" alt="gmail" ></a></li>
+            <li><a href="https://www.linkedin.com/in/paulo-godoi-5592801a0" target="_blank"><img src="src/icones/linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="https://github.com/Phgodoi?tab=repositories" target="_blank"><img src="src/icones/github.png" alt="GitHub"></a></li>
+        </ul>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou formado em Gestão da Tecnologia da Informação pela Universidade Cruzeiro do Sul e foi durante o curso que tive meu primeiro contato com linguagens de programação. Desde então, me apaixonei pela área e venho estudando cada vez mais sobre o assunto. Além de possuir diversos cursos na área, como o Bootcamp Santander Full Stack Developer em parceria com a Dio - Digital Innovation One, também tenho aproveitado muito o conteúdo disponibilizado na plataforma do Curso em Vídeo com o professor Gustavo Guanabara.
+        Com todo esse conhecimento adquirido, comecei a desenvolver meu primeiro portfólio para demonstrar minhas habilidades e projetos desenvolvidos. Estou muito motivado em buscar novas oportunidades na área de tecnologia e aplicar meus conhecimentos em projetos desafiadores.
+        </p>
+
+        <p>
+            Tenho como objetivos imediatos encontrar uma oportunidade desafiadora na área de tecnologia, onde eu possa desenvolver minhas habilidades e aprimorar meu conhecimento. Busco por oportunidades como trainee ou desenvolvedor junior, onde eu possa colocar em prática tudo o que aprendi até aqui e, ao mesmo tempo, continuar a aprender e crescer profissionalmente. Estou sempre em busca de aprimorar minhas habilidades e explorar novas tecnologias para oferecer as melhores soluções e resultados.
+        </p>
+
+        <h3>Habilidades</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Lógica de programação</li>
+            <li>Banco de dados</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Portfólio</h2>
+        <ul>
+            <li>
+                <img src="src/embreve.jpg" alt="Projeto 01">
+                <h3>Projeto 01</h3>
+                <p>Descrição Em breve</p>
+                <p>Tecnologias usadas</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li>
+                <img src="src/embreve.jpg" alt="Projeto 02">
+                <h3>Projeto 02</h3>
+                <p>Descrição Em breve</p>
+                <p>Tecnologias usadas</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li>
+                <img src="src/embreve.jpg" alt="Projeto 03">
+                <h3>Projeto 03</h3>
+                <p>Descrição Em breve</p>
+                <p>Tecnologias usadas</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li>
+                <img src="src/embreve.jpg" alt="Projeto 03">
+                <h3>Projeto 04</h3>
+                <p>Descrição Em breve</p>
+                <p>Tecnologias usadas</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <button id="topBtn"><a href="index.html">Top</a></button>
+    <footer>
+        <ul>
+            <span><a href="mailto:pauloh.godoi94@gmail.com">pauloh.godoi94@gmail.com</a></span>
+            <span><a href="https://www.linkedin.com/in/paulo-godoi-5592801a0" target="_blank">Linkedin</a></span>
+            <span><a href="https://github.com/Phgodoi?tab=repositories" target="_blank">GitHub</a></span>
+        </ul>
+        <p>Desenvolvido por Paulo Godoi</p>
+    </footer>
+</body>
+</html>
+
