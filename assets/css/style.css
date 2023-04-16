@@ -71,7 +71,7 @@ header {
     padding: 0px;
 
     background-image: url('/src/kalen.jpg');
-    background-position: center right;
+    background-position: bottom right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ header img:hover {
     padding: 0px;
 
     background-image: url('/src/benjamin.jpg');
-    background-position: right top;
+    background-position: right bottom;
     background-size: cover;
     background-attachment: fixed;
 }
