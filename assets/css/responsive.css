@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     
     .menu{
         width: 100%;
@@ -17,6 +17,22 @@
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
+    }
+    header, #about{
+        border: none;
+        background-image: none;
+        background-color: #f2f2f2;
+    }
+
+    #about {
+        background-color: #cfcfcf;
+        padding: 0px;
+    }
+    .content_header,
+    .content_section{
+        padding: 40px;
+        width: auto;
+        margin: 0;
     }
     
 }

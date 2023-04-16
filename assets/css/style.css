@@ -68,7 +68,14 @@
 header {
     background-color: #f2f2f2;
     text-align: center;
-    padding: 40px;
+    padding: 0px;
+
+    background-image: url('/src/moonp.jpg');
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 3px solid black;
 }
 header h1 {
     font-size: 48px;
@@ -88,7 +95,7 @@ header p {
     margin-bottom: 20px;
     text-align: justify;
 }
-header > a {
+header  div > a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -104,7 +111,7 @@ header > a:hover {
 header ul {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10%;
     gap: 15%;
 }
 header li {
@@ -118,11 +125,28 @@ header img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
+
+.content_header{
+    margin-right: 48.5%;
+    background: linear-gradient(90deg,#fff,#ffffffee, #ffffffc4);
+    padding: 21vh 5vh;
+}
+
+.content_section{
+    padding: 21vh 5vh;
+    margin-left: 51.5%;
+    background: linear-gradient(90deg,#ffffffc4,#ffffffee, #ffffff);
+}
 /* Sobre Mim */
 
 #about {
     background-color: #fff;
-    padding: 40px;
+    padding: 0px;
+
+    background-image: url('/src/balaop.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #about h2 {
     font-size: 36px;
