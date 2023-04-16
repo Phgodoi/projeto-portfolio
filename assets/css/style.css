@@ -70,7 +70,7 @@ header {
     text-align: center;
     padding: 0px;
 
-    background-image: url('/src/moonp.jpg');
+    background-image: url('https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?w=1800&t=st=1681654426~exp=1681655026~hmac=c56b51385b01fc2117fcab62a6b53228cf15fb4a6b00d72acd33fd2b145ff911');
     background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ header img:hover {
     background-color: #fff;
     padding: 0px;
 
-    background-image: url('/src/balaop.jpg');
+    background-image: url('https://img.freepik.com/free-vector/air-balloon-flying-sea-water-night-sky-with-full-moon-stars-clouds-scenery-background-aerial-travel-with-beautiful-ocean-landscape-view-journey-adventure-cartoon-vector-illustration_107791-8822.jpg?w=1800&t=st=1681654456~exp=1681655056~hmac=087153bf9c049d6c8b777eda7feba8d8f770ab3e6014a4a9e00f816e5962069c');
     background-position: right top;
     background-size: cover;
     background-attachment: fixed;
