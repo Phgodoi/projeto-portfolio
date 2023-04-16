@@ -70,7 +70,7 @@ header {
     text-align: center;
     padding: 0px;
 
-    background-image: url('/src/moonp.jpg');
+    background-image: url('/src/moon.png');
     background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ header img:hover {
     background-color: #fff;
     padding: 0px;
 
-    background-image: url('/src/balaop.jpg');
+    background-image: url('/src/airBalon.png');
     background-position: right top;
     background-size: cover;
     background-attachment: fixed;
