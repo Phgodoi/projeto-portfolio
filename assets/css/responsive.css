@@ -27,12 +27,13 @@
     #about {
         background-color: #cfcfcf;
         padding: 0px;
+       
     }
     .content_header,
     .content_section{
-        padding: 40px;
+        padding: 30px;
         width: auto;
         margin: 0;
+        box-shadow: none;
     }
-    
 }

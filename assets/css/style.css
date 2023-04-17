@@ -68,7 +68,6 @@
 header {
     background-color: #f2f2f2;
     text-align: center;
-    padding: 0px;
     background-image: url('../imagens/sun.jpg');
     background-position: center bottom;
     background-size: cover;
@@ -104,7 +103,7 @@ header  div > a {
     transition: background-color 0.5s;
     box-shadow: var(--box-shadow-leve);
 }
-header > a:hover {
+header div> a:hover {
     background-color: var(--corB);
 }
 header ul {
@@ -129,7 +128,6 @@ header img:hover {
 /* Sobre Mim */
 #about {
     background-color: #fff;
-    padding: 0px;
     background-image: url('../imagens/moon.jpg');
     background-position: left center;
     background-size: cover;
@@ -145,7 +143,6 @@ header img:hover {
 #about p {
     text-indent: 25px;
     font-size: 18px;
-    margin-top: 0;
     margin-bottom: 20px;
     text-align: justify;
     padding: 1% 5%;
@@ -157,7 +154,6 @@ header img:hover {
     padding: 1% 5%;
 }
 #about ul {
-    margin-top: 0;
     list-style-position: inside;
     columns: 2;
     padding: 1% 5%;
@@ -189,6 +185,7 @@ header img:hover {
 #projects {
     background-color: ghostwhite;
     padding: 40px;
+    min-height: 60vh;
 }
 #projects h2 {
     font-size: 36px;
