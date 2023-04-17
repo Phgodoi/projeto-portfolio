@@ -129,12 +129,14 @@ header img:hover {
     margin-right: 48.5%;
     background: linear-gradient(90deg,#fff,#ffffffee, #ffffffc4);
     padding: 21vh 5vh;
+    box-shadow:  8px 8px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
 .content_section{
     padding: 21vh 5vh;
     margin-left: 51.5%;
     background: linear-gradient(90deg,#ffffffc4,#ffffffee, #ffffff);
+    box-shadow: -8px -8px 13px 0px rgba(0, 0, 0, 0.493);
 }
 /* Sobre Mim */
 
@@ -151,6 +153,7 @@ header img:hover {
     font-size: 36px;
     margin-bottom: 30px;
     padding: 1% 5%;
+    text-align: center;
 }
 #about p {
     text-indent: 25px;
