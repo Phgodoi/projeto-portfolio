@@ -33,8 +33,6 @@
     justify-content: space-between;
     background-color: var(--corC);
     padding: 15px;
-
-    box-shadow: var(--box-shadow-leve);
 }
 
 .navbar a{
@@ -44,6 +42,7 @@
     font-weight: 600;
     text-transform: uppercase;
     transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+    
 }
 .navbar .menu a:hover, .logo:hover {
     color: var(--corE);
@@ -69,7 +68,6 @@ header {
     background-color: #f2f2f2;
     text-align: center;
     padding: 0px;
-
     background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-position: bottom right;
     background-size: cover;
@@ -126,22 +124,8 @@ header img:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.content_header{
-    margin-right: 48.5%;
-    background: linear-gradient(90deg,#f2f2f2,#fffffff2, #ffffffe6);
-    padding: 21vh 5vh;
-    box-shadow:  8px 8px 13px 0px rgba(0, 0, 0, 0.493);
-    
-}
 
-.content_section{
-    padding: 21vh 5vh;
-    margin-left: 51.5%;
-    background: linear-gradient(90deg,#ffffffe6,#fffffff2, #f2f2f2);
-    box-shadow: -8px -8px 13px 0px rgba(0, 0, 0, 0.493);
-}
 /* Sobre Mim */
-
 #about {
     background-color: #fff;
     padding: 0px;
@@ -182,6 +166,24 @@ header img:hover {
     font-size: 18px;
     padding: 2px;
 }
+
+
+/* Efeito Parallax */
+.content_header{
+    margin-right: 48.5%;
+    background: linear-gradient(90deg,#f2f2f2,#fffffff2, #ffffffe6);
+    padding: 21vh 5vh;
+    box-shadow:  8px 8px 13px 0px rgba(0, 0, 0, 0.493);
+    
+}
+
+.content_section{
+    padding: 21vh 5vh;
+    margin-left: 51.5%;
+    background: linear-gradient(90deg,#ffffffe6,#fffffff2, #f2f2f2);
+    box-shadow: -8px -8px 13px 0px rgba(0, 0, 0, 0.493);
+}
+
 
 /* Portifólio */
 #projects {
@@ -257,8 +259,8 @@ ul:hover > li:not(:hover)> img {
     background-color: var(--corB);
 }
 
-/* Contato */
 
+/* Contato */
 #contact {
     background-color:lightgray;
     padding: 30px;
@@ -303,6 +305,7 @@ ul:hover > li:not(:hover)> img {
     background-color: var(--corB);
 }
 
+
 /* Botão Voltar ao topo */
 #topBtn {
     display: none; /* oculta o botão por padrão */
@@ -313,14 +316,14 @@ ul:hover > li:not(:hover)> img {
     font-size: 14px;
     border: none;
     outline: none;
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: #f2be2298;
     color: #fff;
     cursor: pointer;
     padding: 10px;
-    border-radius: 5px; 
+    border-radius: 10px; 
 }
 #topBtn:hover{
-    background-color: rgba(50, 50, 50, 0.7);
+    background-color: #fabd08;
 }
 #topBtn a {
     color: #f2f2f2;
@@ -353,6 +356,7 @@ footer span {
 footer a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 footer a:hover{
     color: #fff;
