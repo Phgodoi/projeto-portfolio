@@ -74,7 +74,8 @@ header {
     background-position: bottom right;
     background-size: cover;
     background-attachment: fixed;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: inset 8px 8px 13px 0px rgba(0, 0, 0, 0.493);
 }
 header h1 {
     font-size: 48px;
@@ -127,15 +128,16 @@ header img:hover {
 
 .content_header{
     margin-right: 48.5%;
-    background: linear-gradient(90deg,#fff,#ffffffee, #ffffffc4);
+    background: linear-gradient(90deg,#f2f2f2,#fffffff2, #ffffffe6);
     padding: 21vh 5vh;
     box-shadow:  8px 8px 13px 0px rgba(0, 0, 0, 0.493);
+    
 }
 
 .content_section{
     padding: 21vh 5vh;
     margin-left: 51.5%;
-    background: linear-gradient(90deg,#ffffffc4,#ffffffee, #ffffff);
+    background: linear-gradient(90deg,#ffffffe6,#fffffff2, #f2f2f2);
     box-shadow: -8px -8px 13px 0px rgba(0, 0, 0, 0.493);
 }
 /* Sobre Mim */
@@ -148,6 +150,7 @@ header img:hover {
     background-position: right bottom;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 8px 8px 13px 0px rgba(0, 0, 0, 0.493);
 }
 #about h2 {
     font-size: 36px;
@@ -184,6 +187,7 @@ header img:hover {
 #projects {
     background-color: ghostwhite;
     padding: 40px;
+  
 }
 #projects h2 {
     font-size: 36px;
@@ -256,7 +260,7 @@ ul:hover > li:not(:hover)> img {
 /* Contato */
 
 #contact {
-    background-color: #f2f2f2;
+    background-color:lightgray;
     padding: 30px;
 }
 #contact h2 {
@@ -328,7 +332,7 @@ ul:hover > li:not(:hover)> img {
 footer {
     background-color: #333;
     color: #fff;  
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column; 
