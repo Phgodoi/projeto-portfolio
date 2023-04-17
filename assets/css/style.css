@@ -33,6 +33,7 @@
     justify-content: space-between;
     background-color: var(--corC);
     padding: 15px;
+    padding-right: 5vh;
 }
 
 .navbar a{
@@ -69,7 +70,7 @@ header {
     text-align: center;
     padding: 0px;
     background-image: url('../imagens/sun.jpg');
-    background-position: right bottom;
+    background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
     border-bottom: 2px solid black;
@@ -130,7 +131,7 @@ header img:hover {
     background-color: #fff;
     padding: 0px;
     background-image: url('../imagens/moon.jpg');
-    background-position: left top;
+    background-position: left center;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 8px 8px 13px 0px rgba(0, 0, 0, 0.493);
