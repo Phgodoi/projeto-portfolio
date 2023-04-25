@@ -66,10 +66,8 @@
 /* Cabeçalho */
 
 header {
-    background-color: #f2f2f2;
     text-align: center;
-    background-image: url('../imagens/sun.jpg');
-    background-position: center bottom;
+    background: #f2f2f2 url('../imagens/sunpq.jpg') no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
     border-bottom: 2px solid black;
@@ -127,9 +125,7 @@ header img:hover {
 
 /* Sobre Mim */
 #about {
-    background-color: #fff;
-    background-image: url('../imagens/moon.jpg');
-    background-position: left center;
+    background: #fff url('../imagens/moonpq.jpg') no-repeat left center ;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 8px 8px 13px 0px rgba(0, 0, 0, 0.493);
