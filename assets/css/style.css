@@ -264,7 +264,6 @@ ul:hover > li:not(:hover)> img {
     
 }
 
-
 /* Contato */
 #contact {
     background-color:lightgray;
@@ -335,10 +334,9 @@ ul:hover > li:not(:hover)> img {
 }
 
   
-
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;  
     padding: 20px;
     display: flex;
