@@ -36,4 +36,8 @@
         margin: 0;
         box-shadow: none;
     }
+
+    #projects img {
+        max-width: 300px;
+    }
 }

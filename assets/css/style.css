@@ -222,7 +222,7 @@ header img:hover {
 }
 #projects img {
     display: block;
-    max-width: 300px;
+    max-width: 350px;
     max-height: 250px;
     margin: auto;
     object-fit: cover;
